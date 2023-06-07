@@ -1,0 +1,12 @@
+{
+  "item.better_bronze.copper_dust": "Copper Dust",
+  "item.better_bronze.tin_dust": "Tin Dust",
+  "item.better_bronze.raw_tin": "Raw Tin",
+  "item.better_bronze.bronze_dust": "Bronze Dust",
+
+  "block.better_bronze.tin_ore": "Tin Ore",
+  "block.better_bronze.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.better_bronze.raw_tin_block": "Block of Raw Tin",
+
+  "itemGroup.better_bronze": "Better Bronze"
+}

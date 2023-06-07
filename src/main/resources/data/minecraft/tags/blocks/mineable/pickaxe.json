@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "better_bronze:tin_ore",
+    "better_bronze:deepslate_tin_ore",
+    "better_bronze:raw_tin_block"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "forge:dusts/bronze"
+  },
+  "result": "lemon_core:bronze_ingot",
+  "experience": 0.1,
+  "cookingtime": 200
+}

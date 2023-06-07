@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "better_bronze:block/raw_tin_block"
+  }
+}

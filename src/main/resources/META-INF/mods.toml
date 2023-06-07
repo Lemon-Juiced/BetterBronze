@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="GNU General Purpose License v3 (GPLv3)"
+
+[[mods]]
+modId="better_bronze"
+version="1.19.4-1.0.0"
+displayName="Better Bronze"
+logoFile="better_bronze.png"
+credits="Scalar Team"
+authors="Lemon_Juiced"
+
+description='''
+Makes bronze much easier to attain for any tech mods.
+'''
+
+[[dependencies.better_bronze]]
+    modId="forge"
+    mandatory=true
+    versionRange="[45,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.better_bronze]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4,1.20)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.better_bronze]]
+    modId="lemon_core"
+    mandatory=true
+    versionRange="[1.19.4-1.0.6,)"
+    ordering="NONE"
+    side="BOTH"
