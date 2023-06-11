@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.20-1.0.3'
+version = '1.20-1.0.4'
 group = 'lemon_juice.better_bronze' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'better_bronze'
 
@@ -68,7 +68,11 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', 'better_bronze'
 
             mods {
-                better_bronze {
+                better_bronze {    // JEI
+    //compileOnly fg.deobf("mezz.jei:jei-1.19.4-common-api:13.1.0.6")
+    //compileOnly fg.deobf("mezz.jei:jei-1.19.4-forge-api:13.1.0.6")
+    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-common:13.1.0.6")
+    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.6")
                     source sourceSets.main
                 }
             }
@@ -127,10 +131,10 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.20-46.0.2'
 
     // JEI
-    //compileOnly fg.deobf("mezz.jei:jei-1.19.4-common-api:13.1.0.6")
-    //compileOnly fg.deobf("mezz.jei:jei-1.19.4-forge-api:13.1.0.6")
-    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-common:13.1.0.6")
-    //runtimeOnly fg.deobf("mezz.jei:jei-1.19.4-forge:13.1.0.6")
+    compileOnly fg.deobf("mezz.jei:jei-1.20-common-api:14.0.0.5")
+    compileOnly fg.deobf("mezz.jei:jei-1.20-forge-api:14.0.0.5")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20-common:14.0.0.5")
+    runtimeOnly fg.deobf("mezz.jei:jei-1.20-forge:14.0.0.5")
 
     // Lemon Core Dependency
     runtimeOnly fg.deobf("curse.maven:lemon-core-840168:4574930")
