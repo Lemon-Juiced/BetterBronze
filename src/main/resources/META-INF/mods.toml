@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[46,)"
+loaderVersion="[47,)"
 license="GNU General Purpose License v3 (GPLv3)"
 
 [[mods]]
 modId="better_bronze"
-version="1.20-1.0.4"
+version="1.20.1-1.0.5"
 displayName="Better Bronze"
 logoFile="better_bronze.png"
 credits="Scalar Team"
@@ -17,18 +17,18 @@ Makes bronze much easier to attain for any tech mods.
 [[dependencies.better_bronze]]
     modId="forge"
     mandatory=true
-    versionRange="[46,)"
+    versionRange="[47,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.better_bronze]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20,1.21)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.better_bronze]]
     modId="lemon_core"
     mandatory=true
-    versionRange="[1.20-1.0.7,)"
+    versionRange="[1.20.1-1.0.11,)"
     ordering="NONE"
     side="BOTH"
