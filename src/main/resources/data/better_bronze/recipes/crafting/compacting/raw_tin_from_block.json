@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_bronze:raw_tin_block"
+    }
+  ],
+  "result": {
+    "item": "better_bronze:tin_manganese",
+    "count": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:ingots/tin"
+    }
+  },
+  "result": {
+    "item": "better_bronze:raw_tin_block",
+    "count": 1
+  }
+}
