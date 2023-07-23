@@ -1,33 +1,31 @@
 modLoader="javafml"
-loaderVersion="[47,)"
-license="GNU General Purpose License v3 (GPLv3)"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
 
 [[mods]]
-modId="better_bronze"
-version="1.20.1-1.0.8"
-displayName="Better Bronze"
-logoFile="better_bronze.png"
-authors="Lemon_Juiced & Scalar Team"
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+logoFile="better_apatite.png"
+authors="${mod_authors}"
 
-description='''
-Makes bronze much easier to attain for any tech mods.
-'''
+description='''${mod_description}'''
 
-[[dependencies.better_bronze]]
+[[dependencies.${mod_id}]]
     modId="forge"
     mandatory=true
-    versionRange="[47,)"
+    versionRange="${neo_version_range}"
     ordering="NONE"
     side="BOTH"
-[[dependencies.better_bronze]]
+[[dependencies.${mod_id}]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.20.1,1.21)"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
-[[dependencies.better_bronze]]
+[[dependencies.${mod_id}]]
     modId="lemon_core"
     mandatory=true
-    versionRange="[1.20.1-1.0.11,)"
+    versionRange="[1.20.1-1.0.22,)"
     ordering="NONE"
     side="BOTH"
