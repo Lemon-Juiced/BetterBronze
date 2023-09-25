@@ -17,15 +17,12 @@ public class ModCreativeTab {
 
     public static final RegistryObject<CreativeModeTab> BETTER_BRONZE_TAB = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.better_bronze"))
-            .icon(() -> new ItemStack(ModItems.BRONZE_DUST.get()))
+            .icon(() -> new ItemStack(ModItems.RAW_TIN.get()))
             .build());
 
     public static void registerTabs(BuildCreativeModeTabContentsEvent event){
         if(event.getTab() == BETTER_BRONZE_TAB.get()){
-            event.accept(ModItems.COPPER_DUST.get());
-            event.accept(ModItems.TIN_DUST.get());
             event.accept(ModItems.RAW_TIN.get());
-            event.accept(ModItems.BRONZE_DUST.get());
 
             event.accept(ModBlocks.TIN_ORE.get());
             event.accept(ModBlocks.DEEPSLATE_TIN_ORE.get());
