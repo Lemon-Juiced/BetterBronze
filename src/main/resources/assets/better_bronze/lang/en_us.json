@@ -1,6 +1,12 @@
 {
   "item.better_bronze.raw_tin": "Raw Tin",
 
+  "item.better_bronze.bronze_axe": "Bronze Axe",
+  "item.better_bronze.bronze_hoe": "Bronze Hoe",
+  "item.better_bronze.bronze_pickaxe": "Bronze Pickaxe",
+  "item.better_bronze.bronze_shovel": "Bronze Shovel",
+  "item.better_bronze.bronze_sword": "Bronze Sword",
+
   "block.better_bronze.tin_ore": "Tin Ore",
   "block.better_bronze.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.better_bronze.raw_tin_block": "Block of Raw Tin",

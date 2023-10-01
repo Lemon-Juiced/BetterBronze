@@ -3,6 +3,7 @@ package lemon_juice.better_bronze;
 import lemon_juice.better_bronze.block.ModBlocks;
 import lemon_juice.better_bronze.creativetab.ModCreativeTab;
 import lemon_juice.better_bronze.item.ModItems;
+import lemon_juice.better_bronze.tag.ModTags;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -27,6 +28,9 @@ public class BetterBronze {
         // Register Creative Tab
         ModCreativeTab.register(modEventBus);
         modEventBus.addListener(ModCreativeTab::registerTabs);
+
+        // Register Tags
+        ModTags.init();
 
         modEventBus.addListener(this::commonSetup);
 
