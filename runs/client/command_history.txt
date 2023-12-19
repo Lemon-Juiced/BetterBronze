@@ -1,0 +1,2 @@
+/gamemode spectator
+/effect give Dev minecraft:night_vision infinite
